@@ -1,0 +1,5 @@
+//*     returns all tags
+//div   returns all div tags
+//div[contains(text, "is")]     returns all div tags with text containing "is"
+//p[@class="plot"]      returns p tags with class plot
+//p[@class="plot"][1]   returns the first p tag with class plot, index begins from 1
