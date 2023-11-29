@@ -3,3 +3,11 @@
 //div[contains(text, "is")]     returns all div tags with text containing "is"
 //p[@class="plot"]      returns p tags with class plot
 //p[@class="plot"][1]   returns the first p tag with class plot, index begins from 1
+//p[contains(@class, "123")]     returns p tags with class attribute that contains 123
+//p[contains(text, "123)]       returns p tags with enclosing text containing 123
+//p[(@class="1") or (@id="1")]  returns p tags with class = 1 or id = 1
+//...[() and ()]                returns tags that satisfy both checks
+//p/*      only children tags of p
+//p[1]/..      the parent of the first p tag
+//p/text()      the texts within all p tags
+//p[1]/@*       all attribute values of the first p tag
